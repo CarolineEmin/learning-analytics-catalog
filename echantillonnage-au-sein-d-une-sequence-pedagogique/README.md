@@ -59,17 +59,32 @@ identifiant unique de la trace (int | identifiant unique d'une ressource (int)
 ### user_video_mat
 Matrice binaire 1/0. Tableau avec en ligne les utilisateurs, en colonne les ressources de la sequence_of_interest, prenant la valeur 1 quand une activité a été évitée par un utilisateur
 
+user_id | ressource 1| ressource 2 | ...
+------- | -----------|-------- | ---
+123456 | 0|0 
+123457 | 1|0
+
+
+
 ### activity_skipping_score
-Identification des activités les plus fréquemment évitées par les utilisateurs, avec un rang et un score pour chaque ressource.
+Identification des activités les plus fréquemment évitées par les utilisateurs, avec un rang et un score pour chaque ressource. Exemple : proportion des certifiés ayant évité la ressource.
+
+ressource_id | score d'échantillonnage| 
+---|-------- |
+vidéo S1.1 | 0.58
+vidéo S1.2 |0.41
 
 ### user_skipping_score
 Calculer un score pour chaque utilisateur en fonction de sa propension à sauter une ressource
+user_id | score d'échantillonnage| 
+---|-------- |
+123456 | 0.05
+123457 |0.51
+
 
 ## Indicateurs recommandés
 Indicateur 1 : Proportion des utilisateurs évitant plus de 10% des ressources prescrites
-
 Indicateur 2 : Proportion des utilisateurs évitant plus de 80% des ressources prescrites
-
 
 # Exemples
 
@@ -81,7 +96,7 @@ Indicateur 2 : Proportion des utilisateurs évitant plus de 80% des ressources p
 Le MOOC Effectuation est constitué de cinq modules diffusés au rythme de un module par semaine, chaque module comprenant une demi-douzaine de vidéos et approximativement autant de quiz notés. Une étude de cas est proposée aux participants pour chacune des trois itérations ; l’obtention du certificat est inféodée au rendu d’un devoir portant sur cette étude de cas, devoir évalué par les pairs. 
 
 [Données cas d'étude Hubble : le MOOC Effectuation] https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/example/logs.MOOC.Effectuation.Hubble.csv
-[Algorithme R permettant de réaliser l'analyse des données Hubble] https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/algorithms/R/EchantillonnageAuSeinDUneSequencePedagogique.r
+[Algorithme R permettant de réaliser l'analyse de l'échantillonnage sur un cas d'étude de Hubble] https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/algorithms/R/EchantillonnageAuSeinDUneSequencePedagogique.r
 
 ## Bibliographie
 
