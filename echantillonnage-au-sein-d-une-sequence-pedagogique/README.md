@@ -44,7 +44,7 @@ Séquence pédagogique sur laquelle doit être réalisée l’analyse. Contient 
 
 order | ressource_id| 
 ---|-------- |
-identifiant unique de la trace (int | identifiant unique d'une ressource (int)
+Ordre dans la séquence | identifiant unique d'une ressource
 1 | vidéo S1.1 |
 2 | vidéo S1.2 |
 
