@@ -1,14 +1,10 @@
-# Learning Analytics Catalog
+# Catalogue de scénarios d'analyse
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut ex gravida, varius lorem at, mattis mi. Vestibulum eget consequat tellus. In luctus sodales neque sit amet sagittis. Integer ullamcorper ipsum lectus, et pharetra tortor malesuada a. Aenean tincidunt quam enim. Proin vel diam ex. Sed vitae aliquam nisl. Suspendisse egestas orci non neque dignissim, id tristique metus ultrices. Nunc at est lacinia, vestibulum mauris sagittis, hendrerit purus.
+L'objet de ce catalogue est de répertorier un certain nombre de scénarios d'analyse réalisés, avec pour objectif de servir d'inspiration à toute personne, concepteur de formation ou analyste, qui souhaiterait mener à bien des analyses sur la base des traces d'activité d'un dispositif.
+
 
 * [Echantillonnage au sein d’une séquence pédagogique](#echantillonnage-au-sein-dune-séquence-pédagogique)
-* [Lorem ipsum] (#lorem-ipsum)
-* [Lorem ipsum] (#) 
-* [Lorem ipsum] (#)
-* [Lorem ipsum] (#)
-* [Lorem ipsum] (#)
-* [Lorem ipsum] (#)
+* [Analyse de séquence des modes d'appropriation d'un dispositif] (#lorem-ipsum)
 
 [Indicator catalog] (https://github.com/hubble-learning-analytics/learning-analytics-catalog/tree/master/indicators-catalog#indicators-catalog)
 
@@ -21,11 +17,11 @@ Il est fréquent que les utilisateurs d’un dispositif ne suivent pas de maniè
 
 [See more ...](https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/README.md#echantillonnage-au-sein-dune-séquence-pédagogique)
 
-## Lorem ipsum
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut ex gravida, varius lorem at, mattis mi. Vestibulum eget consequat tellus. In luctus sodales neque sit amet sagittis. Integer ullamcorper ipsum lectus, et pharetra tortor malesuada a. Aenean tincidunt quam enim. Proin vel diam ex. Sed vitae aliquam nisl. Suspendisse egestas orci non neque dignissim, id tristique metus ultrices. Nunc at est lacinia, vestibulum mauris sagittis, hendrerit purus.
+## Analyse de séquence des modes d'appropriation du dispositif
+Le comportement de tout utilisateur d’un dispositif peut être amené à évoluer au fil du temps, ou des modules du dispositif. L’objet de cette entrée est de décrire et analyser la diversité des trajectoires de l’utilisateur au sein du dispositif. On considère que chaque utilisateur peut à un moment donné se trouver dans un état prédéterminé, sachant que le nombre d’états différents est limité. On s’intéresse aux transitions entre les états, ainsi qu’à la classification des trajectoires.
 
 ![Exemple de visualisation](http://www.piloter.org/excel/images/h10.jpg)
 
-**Tags**: *[tag 1] (#)*, *[tag 2] (#)*
+**Tags**: *[analyse de séquence] (#)*,*[Trajectoires] (#)*, *[matrice de transition d'états] (#)*
 
 [See more ...](#)
