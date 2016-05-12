@@ -93,6 +93,7 @@ user_id | score d'échantillonnage|
 
 ## Indicateurs recommandés
 Indicateur 1 : Proportion des utilisateurs évitant plus de 10% des ressources prescrites
+
 Indicateur 2 : Proportion des utilisateurs évitant plus de 80% des ressources prescrites
 
 # Exemples
