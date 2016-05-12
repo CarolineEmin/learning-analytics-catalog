@@ -23,7 +23,7 @@ Création d’une typologie des utilisateurs sur la base de leur comportement d�
 ## Inputs
 ### Flat
 
-logdata
+### logdata
 Données de logs, où l’on a défini la fenêtre temporelle d’intérêt
 
 id | user_id | ressource_id| viewed_date | ...
@@ -34,7 +34,7 @@ identifiant unique de la trace (int | identifiant unique d'un utilisateur |ident
 3 | 123456 | vidéo S1.4|'2016-01-01'
 3 | 489456 | vidéo S1.1|'2016-01-01'
 
-# Séquence pédagogique
+### Séquence pédagogique
 
 L’analyste a besoin pour réaliser ce travail de connaître de manière précise la séquence pédagogique prescrite. Un travail de nettoyage de la séquence peut avoir été réalisé en amont par l’analyste pour filtrer des éléments qui ne doivent pas être pris en compte dans la séquence prescrite. Par exemple, on peut retirer dans une séquence de vidéos une vidéo n’ayant pas une visée pédagogique (vidéo d’animation: présentation d’un module, etc) pour ne conserver que les vidéos pédagogiques à proprement parler car l’on sait que la plupart des utilisateurs sautent la vidéo d’animation, ce qui risque de biaiser la détection des “skippers” proprement dits.
 
