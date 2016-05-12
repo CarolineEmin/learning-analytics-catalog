@@ -84,6 +84,7 @@ vidéo S1.2 |0.41
 
 ### user_skipping_score
 Calculer un score pour chaque utilisateur en fonction de sa propension à sauter une ressource
+
 user_id | score d'échantillonnage| 
 ---|-------- |
 123456 | 0.05
