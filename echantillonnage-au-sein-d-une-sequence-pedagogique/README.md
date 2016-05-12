@@ -11,7 +11,7 @@ Afin d’alléger un dispositif de formation, un concepteur souhaite supprimer d
 
 #### Identification des utilisateurs peu assidus
 
-On cherche à identifier pour une formation donnée les participants qui ont obtenu le certificat de la formation sans pour autant avoir visionné les ressources exigées. Plusieurs applications possibles : pénaliser les participants qui sautent trop de ressources, les relancer de manière personnalisée pour leur préciser quelles ressources ils doivent revoir. 
+On cherche à identifier pour une formation donnée les participants qui ont obtenu le certificat de la formation sans pour autant avoir visionné les ressources prescrites. Plusieurs applications possibles : pénaliser les participants qui laissent de côté trop de ressources prescrites, les relancer de manière personnalisée pour leur préciser quelles ressources qu'ils doivent revoir. 
 
 ### Orientés chercheurs
 
