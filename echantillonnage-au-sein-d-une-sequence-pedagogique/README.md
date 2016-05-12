@@ -81,6 +81,7 @@ ressource_id | score d'échantillonnage|
 ---|-------- |
 vidéo S1.1 | 0.58
 vidéo S1.2 |0.41
+![Exemple de visualisation](https://cloud.githubusercontent.com/assets/4588154/15217738/2ed06e3a-185d-11e6-9548-2f1d8a6060d4.png)
 
 ### user_skipping_score
 Calculer un score pour chaque utilisateur en fonction de sa propension à sauter une ressource
