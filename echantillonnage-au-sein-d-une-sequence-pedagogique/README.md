@@ -66,15 +66,27 @@ Identification des activités les plus fréquemment évitées par les utilisateu
 Calculer un score pour chaque utilisateur en fonction de sa propension à sauter une ressource
 
 ## Indicateurs recommandés
-### Proportion des utilisateurs évitant plus de 90% des ressources prescrites
+Indicateur 1 : Proportion des utilisateurs évitant plus de 10% des ressources prescrites
 
-### Proportion des actions attendues (on attend d’un utilisateur qu’il réalise l’ensemble des activités de la séquence) ayant été effectivement réalisées
-
-## Exemples
-Analyse de données factices
+Indicateur 2 : Proportion des utilisateurs évitant plus de 80% des ressources prescrites
 
 
+# Exemples
 
-## Publications
+### Données factices
+[Données factices] https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/example/Factice-data
+
+### Données cas d'étude Hubble
+
+Le MOOC Effectuation est constitué de cinq modules diffusés au rythme de un module par semaine, chaque module comprenant une demi-douzaine de vidéos et approximativement autant de quiz notés. Une étude de cas est proposée aux participants pour chacune des trois itérations ; l’obtention du certificat est inféodée au rendu d’un devoir portant sur cette étude de cas, devoir évalué par les pairs. 
+
+[Données cas d'étude Hubble : le MOOC Effectuation] https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/example/logs.MOOC.Effectuation.Hubble.csv
+[Algorithme R permettant de réaliser l'analyse des données Hubble] https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/algorithms/R/EchantillonnageAuSeinDUneSequencePedagogique.r
+
+## Bibliographie
 
 Breslow, L., Pritchard, D., DeBoer, J., Stump, G., Ho, A., & Seaton, D. (2013). Studying learning in the worldwide classroom: Research into edX’s first MOOC. Journal of Research & Practice in Assessment, 8, 13–25.
+
+## Légitimation de l'analyse
+
+Citation d'un apprenant : "Ça m’arrive de sauter [des ressources] ; ça dépend du MOOC en fait. Il peut y avoir quelque chose qui ne m’intéresse pas mais si je sens que c’est là pour une bonne raison et que ça m’apportera quelque chose je le suis. Si je sens que je peux m’en passer, je zappe, ça arrive assez régulièrement. Ça dépend un peu de l’objectif de ce MOOC. Si c’est pour me former dans le domaine technique sur un point bien particulier, je vais m’accrocher et je vais essayer de bien creuser le truc. Si c’est juste pour apprendre de nouvelles choses, piocher des idées ou des connaissances, à droite, à gauche, c’est un peu le buffet où je me sers. Je ne suis pas obligé de suivre ce qui est proposé exactement. C’est ce que je trouve très sympa aussi, on peut faire un peu à sa sauce."
