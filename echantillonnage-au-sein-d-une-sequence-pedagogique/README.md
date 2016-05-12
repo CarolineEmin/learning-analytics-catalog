@@ -23,10 +23,31 @@ Création d’une typologie des utilisateurs sur la base de leur comportement d�
 ## Inputs
 ### Flat
 
-id | user_id | viewed_date | ...
----|-------- | ----------- | ---
-identifiant unique de la trace (int | identifiant unique d'un utilisateur (int) | la date de visualisation (ISO8601)
-1 | 123456 | '2016-01-01' 
+logdata
+Données de logs, où l’on a défini la fenêtre temporelle d’intérêt
+
+id | user_id | ressource_id| viewed_date | ...
+---|-------- | -----------|-------- | ---
+identifiant unique de la trace (int | identifiant unique d'un utilisateur |identifiant unique d'une ressource |  timestamp
+1 | 123456 | vidéo S1.1|'2016-01-01' 
+2 | 123456 | vidéo S1.2|'2016-01-01' 
+3 | 123456 | vidéo S1.4|'2016-01-01'
+3 | 489456 | vidéo S1.1|'2016-01-01'
+
+# Séquence pédagogique
+
+L’analyste a besoin pour réaliser ce travail de connaître de manière précise la séquence pédagogique prescrite. Un travail de nettoyage de la séquence peut avoir été réalisé en amont par l’analyste pour filtrer des éléments qui ne doivent pas être pris en compte dans la séquence prescrite. Par exemple, on peut retirer dans une séquence de vidéos une vidéo n’ayant pas une visée pédagogique (vidéo d’animation: présentation d’un module, etc) pour ne conserver que les vidéos pédagogiques à proprement parler car l’on sait que la plupart des utilisateurs sautent la vidéo d’animation, ce qui risque de biaiser la détection des “skippers” proprement dits.
+
+prescribed_sequence_of_interest
+
+Séquence pédagogique sur laquelle doit être réalisée l’analyse. Contient l’identifiant et l’ordre des ressources. 
+
+order | ressource_id| 
+---|-------- |
+identifiant unique de la trace (int | identifiant unique d'une ressource (int)
+1 | vidéo S1.1 |
+2 | vidéo S1.2 |
+
 
 ### xApi
 * event name 1
@@ -50,5 +71,10 @@ Calculer un score pour chaque utilisateur en fonction de sa propension à sauter
 ### Proportion des actions attendues (on attend d’un utilisateur qu’il réalise l’ensemble des activités de la séquence) ayant été effectivement réalisées
 
 ## Exemples
+Analyse de données factices
+
+
 
 ## Publications
+
+Breslow, L., Pritchard, D., DeBoer, J., Stump, G., Ho, A., & Seaton, D. (2013). Studying learning in the worldwide classroom: Research into edX’s first MOOC. Journal of Research & Practice in Assessment, 8, 13–25.
