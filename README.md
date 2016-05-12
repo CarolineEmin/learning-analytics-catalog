@@ -12,7 +12,7 @@ L'objet de ce catalogue est de répertorier un certain nombre de scénarios d'an
 ## Echantillonnage au sein d’une séquence pédagogique
 Il est fréquent que les utilisateurs d’un dispositif ne suivent pas de manière linéaire la séquence pédagogique prescrite et « sautent » une activité prescrite, quelle qu’elle soit. Exemple d’activités prescrites : visionnage d’une vidéo, rendu d’un devoir, réalisation d’un quiz, etc. On dira d’une activité prescrite qu’elle a été ignorée ou évitée si elle n’a pas été réalisée alors même qu’elle était prescrite. Exemples : sur une séquence de 10 vidéos à visionner, l’utilisateur ne visionne pas les vidéos 1, 2, et 5. L’objet de ce package est de visualiser l’échantillonnage du point de vue du dispositif et du point de vue des utilisateurs. 
 
-![Exemple de visualisation](http://www.piloter.org/excel/images/h10.jpg)
+![Exemple de visualisation](https://cloud.githubusercontent.com/assets/4588154/15217738/2ed06e3a-185d-11e6-9548-2f1d8a6060d4.png)
 
 **Tags**: *[Echantillonnage] (#)*, *[évitement] (#)*
 
