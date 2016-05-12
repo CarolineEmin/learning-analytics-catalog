@@ -99,14 +99,14 @@ Indicateur 2 : Proportion des utilisateurs évitant plus de 80% des ressources p
 # Exemples
 
 ### Données factices
-[Données factices] https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/example/Factice-data
+[Données factices] (https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/example/Factice-data)
 
 ### Données cas d'étude Hubble
 
 Le MOOC Effectuation est constitué de cinq modules diffusés au rythme de un module par semaine, chaque module comprenant une demi-douzaine de vidéos et approximativement autant de quiz notés. Une étude de cas est proposée aux participants pour chacune des trois itérations ; l’obtention du certificat est inféodée au rendu d’un devoir portant sur cette étude de cas, devoir évalué par les pairs. 
 
-[Données cas d'étude Hubble : le MOOC Effectuation] https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/example/logs.MOOC.Effectuation.Hubble.csv
-[Algorithme R permettant de réaliser l'analyse de l'échantillonnage sur un cas d'étude de Hubble] https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/algorithms/R/EchantillonnageAuSeinDUneSequencePedagogique.r
+[Données cas d'étude Hubble : le MOOC Effectuation] (https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/example/logs.MOOC.Effectuation.Hubble.csv)
+[Algorithme R permettant de réaliser l'analyse de l'échantillonnage sur un cas d'étude de Hubble] (https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/algorithms/R/EchantillonnageAuSeinDUneSequencePedagogique.r)
 
 resource_skipping_score
 ![Exemple de visualisation](https://cloud.githubusercontent.com/assets/4588154/15217738/2ed06e3a-185d-11e6-9548-2f1d8a6060d4.png)
