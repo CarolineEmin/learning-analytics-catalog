@@ -5,6 +5,7 @@ L'objet de ce catalogue est de répertorier un certain nombre de scénarios d'an
 
 * [Echantillonnage au sein d’une séquence pédagogique](#echantillonnage-au-sein-dune-séquence-pédagogique)
 * [Analyse de séquence des modes d'appropriation d'un dispositif] (#lorem-ipsum)
+* [Détection d'un pattern prédéfini dans une séquence d'actions] (#lorem-ipsum)
 
 [Indicator catalog] (https://github.com/hubble-learning-analytics/learning-analytics-catalog/tree/master/indicators-catalog#indicators-catalog)
 
@@ -23,5 +24,11 @@ Le comportement de tout utilisateur d’un dispositif peut être amené à évol
 ![Exemple de visualisation](http://www.piloter.org/excel/images/h10.jpg)
 
 **Tags**: *[analyse de séquence] (#)*,*[Trajectoires] (#)*, *[matrice de transition d'états] (#)*
+
+## Détection d’un pattern prédéfini dans une séquence d’actions
+Les patterns correspondent à des séquences d’actions réaliser au sein d’un dispositif (ex : visionner une vidéo  puis soumettre un quiz puis re-visionner la même vidéo) ou d’états (exemple : actif sur le dispositif, puis inactif la semaine suivante, puis de nouveau actif). Cette analyse consiste à rechercher parmi les comportements des utilisateurs un pattern que l’on a déjà défini en amont de l’analyse. 
+
+**Tags**: *[Pattern] (#)*,*[Détection] (#)*
+
 
 [See more ...](#)
