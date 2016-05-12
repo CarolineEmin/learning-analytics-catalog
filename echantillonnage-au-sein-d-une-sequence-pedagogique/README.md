@@ -74,14 +74,13 @@ user_id | ressource 1| ressource 2 | ...
 
 
 
-### activity_skipping_score
+### resource_skipping_score
 Identification des activités les plus fréquemment évitées par les utilisateurs, avec un rang et un score pour chaque ressource. Exemple : proportion des certifiés ayant évité la ressource.
 
 ressource_id | score d'échantillonnage| 
 ---|-------- |
 vidéo S1.1 | 0.58
 vidéo S1.2 |0.41
-![Exemple de visualisation](https://cloud.githubusercontent.com/assets/4588154/15217738/2ed06e3a-185d-11e6-9548-2f1d8a6060d4.png)
 
 ### user_skipping_score
 Calculer un score pour chaque utilisateur en fonction de sa propension à sauter une ressource
@@ -108,6 +107,10 @@ Le MOOC Effectuation est constitué de cinq modules diffusés au rythme de un mo
 
 [Données cas d'étude Hubble : le MOOC Effectuation] https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/example/logs.MOOC.Effectuation.Hubble.csv
 [Algorithme R permettant de réaliser l'analyse de l'échantillonnage sur un cas d'étude de Hubble] https://github.com/hubble-learning-analytics/learning-analytics-catalog/blob/master/echantillonnage-au-sein-d-une-sequence-pedagogique/algorithms/R/EchantillonnageAuSeinDUneSequencePedagogique.r
+
+resource_skipping_score
+![Exemple de visualisation](https://cloud.githubusercontent.com/assets/4588154/15217738/2ed06e3a-185d-11e6-9548-2f1d8a6060d4.png)
+
 
 ## Bibliographie
 
